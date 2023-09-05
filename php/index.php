@@ -20,7 +20,7 @@ $db = new dbController();
     <!-- Navbar -->
 <nav class="navbar navbar-expand-lg bg-body-tertiary mb-3" style="background-color: #FFB6C1;">
   <div class="container">
-    <a class="navbar-brand" href="#">SMKN 40 Jakarta</a>
+    <a class="navbar-brand" href="#">SMK Negeri 40 Jakarta</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -30,18 +30,16 @@ $db = new dbController();
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Kelas</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Jurusan</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Guru</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Siswagi</a>
         </li>
         <li class="nav-item">
           <a class="nav-link disabled" aria-disabled="true">Disabled</a>
